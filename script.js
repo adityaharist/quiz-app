@@ -1,10 +1,10 @@
 const quizData = [
     {
-        question: "Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "JavaScript",
+        question: "Why is it not recommended to make all of a class's variable public in PHP?",
+        a: "You can then access the attribute only whithin the class itself, and by inheriting and parent classes.",
+        b: "Doing so makes your code tightly coupled.",
+        c: "The attribute may be accessed only by the class that defines the member.",
+        d: "You will have no control over which value the attribute can take. Any external code will be able to change it without any constraint.",
         correct: "d",
     },
     {
